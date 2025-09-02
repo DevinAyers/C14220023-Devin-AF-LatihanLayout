@@ -382,7 +382,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="120dp"
-                            android:src="@drawable/ic_launcher_background"
+                            android:src="@drawable/smooti"
                             android:scaleType="centerCrop"/>
 
                     </LinearLayout>
@@ -391,7 +391,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Bottom Navigation -->
+    <!-- Header bawah untuk tombol -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -408,7 +408,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_launcher_foreground"/>
+                android:src="@drawable/home"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -424,7 +424,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_launcher_foreground"/>
+                android:src="@drawable/discover"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -440,7 +440,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_launcher_foreground"/>
+                android:src="@drawable/cart"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -456,7 +456,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_launcher_foreground"/>
+                android:src="@drawable/order"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -472,14 +472,12 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_launcher_foreground"/>
+                android:src="@drawable/profil"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Profil"/>
         </LinearLayout>
-
-        <!-- Tambah item nav lain (Discover, Cart, Orders, Profile) -->
     </LinearLayout>
 
 </LinearLayout>
